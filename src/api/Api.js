@@ -2,7 +2,7 @@ import axios from 'axios'
 
 const Api = axios.create({
     //set default endpoint API
-    baseURL: 'http://backend-donasi.herokuapp.com/api'
+    baseURL: 'https://dinda.himti.id/api'
 })
 
 export default Api
